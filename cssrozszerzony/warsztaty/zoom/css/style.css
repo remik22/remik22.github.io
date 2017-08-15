@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1000px;
+    height: 300px;
+    background-image: url(https://www.w3schools.com/css/trolltunga.jpg);
+    transition: 2s;
+}
+
+#container:hover {
+    transform: scale(1.5);
+}

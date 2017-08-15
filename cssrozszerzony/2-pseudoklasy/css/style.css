@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: orange;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: aqua;
+}
+a:focus {
+    color:rebeccapurple;
+}
+
+#p1 {
+    color: blue;
+}
+#p1:target {
+    color: green;
+}
+p:lang(pl) {
+    font-style: italic;
+    color: darkcyan;
+}
+p:lang(en) {
+    font-style: italic;
+    color: #444e4e;
+}
+p:lang(de) {
+    font-style: italic;
+    color: #ac06de;
+}
+div.klient:first-child {
+    color: grey;
+}
+div.klient:last-child {
+    color: green;
+}
+div.klient:only-child {
+    color: darkred;
+}
+div.klient:empty {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.klient:nth-child(even) {
+    background-color: blanchedalmond;
+/*    parzyste*/
+}
+.klient:nth-child(odd) {
+    background-color: coral;
+/*    nieparzyste*/
+}
+.klient:nth-child(5n+2) {
+    background-color: #432f2f
+}
+

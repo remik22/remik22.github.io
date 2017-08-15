@@ -1,0 +1,23 @@
+body {
+    font-size: 20px;
+}
+
+p:lang(en) q {
+    quotes: "*" "*";
+}
+
+blockquotes::before {
+    content: '"';
+}
+
+blockquotes::after {
+    content: '"';
+}
+
+blockquotes:lang(en)::before {
+    content: "*";
+}
+
+blockquotes:lang(en)::after {
+    content: "*";
+}

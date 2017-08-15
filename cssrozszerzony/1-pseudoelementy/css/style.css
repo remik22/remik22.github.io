@@ -1,0 +1,22 @@
+#p1::before {
+    content: "przed elementem";
+    color: red;
+}
+#p2::after {
+    content: "po elemencie";
+    color: red;
+}
+#p3::first-letter {
+    color: red;
+    text-transform: uppercase;
+/*    pierwsza litera*/
+
+}
+#p4::first-line {
+    color: red;
+/*    pierwsza linia tekstu*/
+}
+#p5::selection {
+    background-color: red;
+/*    zaznaczenie*/
+}

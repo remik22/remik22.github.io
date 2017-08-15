@@ -1,0 +1,9 @@
+#tlo-obrazek {
+    background-color: #ffd9cc;
+    background-image: url(../paisley.png);
+    background-repeat: no-repeat;
+/*    background-position: top center;*/
+    background-attachment: fixed;
+
+
+}

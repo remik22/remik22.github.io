@@ -1,0 +1,13 @@
+body {
+    background-color: grey;
+}
+img#linux {
+    float: left;
+}
+img#linux1 {
+    float: right;
+}
+p:last-child {
+    background-color: beige;
+    clear: both;
+}

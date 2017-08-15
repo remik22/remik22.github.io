@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+#list {
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    padding: 30px;
+    border: 1px solid;
+    border-color: darkgray;
+    margin: 50px auto;
+    box-shadow: 5px 5px 25px;
+}
+
+.fa-ul {
+    font-size: 50px;
+    color: darkgray;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+li:nth-child(1) a {
+    color: cornflowerblue;
+}
+
+li:nth-child(2) a {
+    color: #073588;
+}
+
+li:nth-child(3) a {
+    color: #e9303a;
+}
+
+li:nth-child(4) a {
+    color: black;
+}
