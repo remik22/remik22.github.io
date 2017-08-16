@@ -1,0 +1,17 @@
+body p {
+    font-size: 40px;
+}
+
+.parallax {
+    background-image: url(../img/pix.jpg);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 1000px;
+    font-size: 40px;
+}
