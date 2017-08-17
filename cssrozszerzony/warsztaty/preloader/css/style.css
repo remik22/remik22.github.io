@@ -1,0 +1,22 @@
+.preloader {
+    width: 100px;
+    height: 100px;
+    border: 20px dotted rgba(128, 128, 128, 0.44);
+    border-bottom: 20px dotted rgba(33, 30, 30, 0.51);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

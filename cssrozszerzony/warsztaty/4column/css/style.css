@@ -1,0 +1,52 @@
+#container {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: left;
+}
+
+.column1 {
+    width: 25%;
+    height: 100%;
+    background: red;
+    transition: width 2s;
+}
+
+.column2 {
+    width: 25%;
+    height: 100%;
+    background: blue;
+    transition: width 2s;
+}
+
+.column3 {
+    width: 25%;
+    height: 100%;
+    background: green;
+    transition: width 2s;
+}
+
+.column4 {
+    width: 25%;
+    height: 100%;
+    background: yellow;
+    transition: width 2s;
+}
+
+.column1:hover {
+    width: 50%;
+}
+
+.column2:hover {
+    width: 50%;
+}
+
+.column3:hover {
+    width: 50%;
+}
+
+.column4:hover {
+    width: 50%;
+}
