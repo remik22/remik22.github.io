@@ -1,3 +1,5 @@
+'use strict';
+
 var imie;
 var imieDamskie = "Kaja";
 var wiek = 37;
