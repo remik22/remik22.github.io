@@ -26,7 +26,6 @@ $(function () {
    $('h1').addClass('blue');
 
    //dodawanie atrybutu
-
    $('h1').attr('imie', 'Marcin');
 
 
