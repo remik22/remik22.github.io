@@ -1,3 +1,15 @@
+//$(function () {
+// alert('działa');
+//});
+
 $(function () {
-   alert('działa');
+   //czysty JS
+   //document.getElementById('first').style.color = 'red';
+
+   //jQuery
+   $('#first').css({
+      color: 'red',
+      background: 'yellow'
+
+   });
 });
