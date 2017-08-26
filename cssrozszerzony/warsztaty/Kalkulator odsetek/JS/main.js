@@ -23,6 +23,7 @@ function oblicz() {
 
    var wynik = obliczZysk(wplata, iloscLat, okresKapitalizacji, oprocentowanie, podatek);
    document.getElementById("wynik").innerHTML = wynik;
+   document.getElementsByTagName("p").background
 
 
 }
