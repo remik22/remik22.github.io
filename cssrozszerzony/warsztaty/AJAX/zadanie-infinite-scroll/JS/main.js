@@ -20,6 +20,15 @@ $(function () {
                   beginOfData.innerHTML = '<br>-------------BEGIN OF DATA------------<br><br>';
                   for (var i = 0; i < response.length; i++) {
 
+                     /*albo -> response.forEach(function(element){
+                     var username = document.createElement('p');
+                     username.innerHTML = element.username;
+                     document.body.appendChild(username);
+                     tak jest dużo łatwiej!
+                     
+                     
+                  })*/
+
                      var username = document.createElement('p');
                      var email = document.createElement('p');
                      var website = document.createElement('p');

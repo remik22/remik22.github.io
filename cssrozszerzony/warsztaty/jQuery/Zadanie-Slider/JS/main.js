@@ -1,3 +1,16 @@
+
+/*
+Do dodani we własnm zakresie
+- obsługa strzałek z klawiatury
+- jesli pierwszy slajd i klikniemy w lewo to przechodzi na slajd ostatni
+-jesli slajd ostatni i klikniemy w prawo to przechodzi na slajd pierwszy
+-jesli nic nie klikamy to co 3 sekundy zmiana slajdu
+
+*/
+
+
+
+
 $(function () {
    //zmienne
    var slider = $('#slider');
@@ -10,6 +23,7 @@ $(function () {
    /// funkcja animujaca ktorej parametrem jest nowy index slajdu
 
    function slide(newSlideIndex) {
+      
       if (newSlideIndex < 0 || newSlideIndex >= slideCount) {
          return;
       }
