@@ -1,4 +1,9 @@
-var tablica = [1,2,3,4,5,6];
-tablica.forEach(function(e,i){
-   console.log(e[0]+e[1]+e[2]+e[3]+e[4]+e[5])
-});
+function suma(x = 0) {
+
+
+   for (i = 0; i < arguments.length; i++) {
+      x += arguments[i];
+      console.log(suma(1, 2, 3));
+   }
+}
+//suma(1,2,3)

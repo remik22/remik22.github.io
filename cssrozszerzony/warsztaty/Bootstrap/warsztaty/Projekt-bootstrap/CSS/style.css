@@ -1,0 +1,293 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'RobotoSlab';
+}
+
+section {
+   /*   padding: 60px 0;*/
+}
+
+.navbar-header .navbar-brand {
+   font-family: 'Droid Serif', serif;
+   font-style: italic;
+   font-size: 18px;
+   color: white;
+   transition: all 0.4s;
+}
+
+.navbar-header .navbar-brand:hover {
+   color: aqua;
+}
+
+.navbar {
+   background-color: rgba(255, 255, 255, 0);
+   border: none;
+}
+
+#bs-example-navbar-collapse-1>ul>li>a {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 10px;
+   color: white;
+   text-transform: uppercase;
+   font-weight: 600;
+   transition: all 0.4s;
+}
+
+#main-nav.scrolled {
+   background-color: rgba(14, 216, 214, 0.85);
+}
+
+#bs-example-navbar-collapse-1>ul>li>a:hover {
+   color: aqua;
+}
+
+header {
+   color: #777777;
+   text-align: center;
+   font-family: 'RobotoSlab', serif;
+   font-style: italic;
+   font-size: 20px;
+   position: relative;
+   height: 100vh;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+   background-size: cover;
+}
+
+.content {
+   position: absolute;
+   display: block;
+   font-size: 20px;
+   color: white;
+   width: 100%;
+   text-align: center;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.content>p {
+   font-style: normal;
+   font-weight: 400;
+   font-family: 'Droid Serif', serif;
+}
+
+#services>h4 {
+   font-family: 'Montserrat',
+}
+
+button {
+   font-style: normal;
+}
+
+.button {
+   width: 70px;
+   height: 70px;
+   color: white;
+   background: #036565;
+   border: 2px solid #036565;
+   border-radius: 50%;
+   transition: 0.5s;
+}
+
+.button:hover {
+   cursor: pointer;
+   color: #036565;
+   background: white;
+   border: 2px solid #036565;
+   transform: rotate(360deg);
+}
+
+#content {
+   margin: 0 auto;
+}
+
+.single-portfolio-item {
+   margin: 0;
+   padding: 0;
+}
+
+.portfolio-image-container {
+   height: 300px;
+   overflow: hidden;
+   margin: 0px;
+}
+
+#portfolio-item-1:hover {
+   transform: scale(1.2, 1.2);
+}
+
+.portfolio-item-mask {
+   background: rgba(14, 216, 214, 0.85);
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   position: relative;
+}
+
+.portfolio-item-mask .fa {
+   position: absolute;
+   font-size: 100px;
+   color: white;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.portfolio-item-mask:hover {
+   opacity: 1;
+   transition: all 1s;
+}
+
+.portfolio-image {
+   height: 100%;
+   background-size: cover;
+   transition: all 1s;
+   background-position: center;
+}
+
+.portfolio-image:hover {
+   transform: scale(1.2);
+}
+
+#portfolio-item-1 {
+   background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio-item-2 {
+   background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio-item-3 {
+   background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio-item-4 {
+   background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio-item-5 {
+   background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio-item-6 {
+   background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#content {
+   margin: 50px;
+}
+
+.team-image-container {
+   height: 200px;
+   width: 200px;
+   margin: 0px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.team-image {
+   position: relative;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   border-radius: 50%;
+}
+
+.icons {
+   text-align: center;
+   font-size: 1.5em;
+}
+
+.icons .fa {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   background-color: black;
+   border-radius: 50%;
+   color: white;
+   margin: 0;
+   text-align: center;
+   transition: all 0.5s;
+}
+
+.icons .fa:hover {
+   background-color: aquamarine;
+}
+
+#team-item-1 {
+   background-image: url(../img/team/man-1.jpg);
+}
+
+#team-item-2 {
+   background-image: url(../img/team/man-2.jpg);
+}
+
+#team-item-3 {
+   background-image: url(../img/team/woman-1.jpg);
+}
+
+#contact {
+   position: relative;
+   height: 100vh;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+   background-size: cover;
+}
+
+#contact-form {
+   color: white;
+}
+
+#contact-form-input {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+#send-button {
+   position: relative;
+   text-align: center;
+}
+
+#send-button .btn {
+   width: 200px;
+   background-color: #30c693;
+   border: none;
+   transition: all 0.5s;
+}
+
+#send-button .btn:hover {
+   background-color: #5c796f;
+}
+
+.footer {
+   margin: 0;
+   padding: 30px;
+   height: 100px;
+}
+
+#icons-footer .fa {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   background-color: black;
+   border-radius: 50%;
+   color: white;
+   margin: 0;
+   text-align: center;
+   transition: all 0.5s;
+   font-size: 1.5em;
+}
+
+#icons-footer .fa:hover {
+   background-color: #5c796f;
+}
