@@ -17,7 +17,6 @@ body {
    font-family: 'Amatic SC', cursive;
    font-size: 1.5em;
    padding-right: 30px;
-   color: darkgreen;
 }
 
 .navbar {
@@ -75,4 +74,88 @@ body {
    font-family: 'Amatic SC', cursive;
    font-size: 2em;
    font-weight: 700;
+}
+
+#skills-container h1 {
+   margin-top: 50px;
+   border-bottom: 1px solid grey;
+   font-family: 'Amatic SC', cursive;
+}
+
+.skills-image-container {
+   overflow: hidden;
+   margin: 0px;
+}
+
+.single-skills-item h3 {
+   font-family: 'Amatic SC', cursive;
+   font-weight: 700;
+}
+
+#skills-item-1 {
+   height: 100px;
+   width: 100%;
+   background-image: url(../IMG/html5.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+}
+
+#skills-item-2 {
+   height: 100px;
+   width: 100%;
+   background-image: url(../IMG/css3.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+}
+
+#skills-item-3 {
+   height: 100px;
+   width: 100%;
+   background-image: url(../IMG/js.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+}
+
+#skills-item-4 {
+   height: 100px;
+   width: 100%;
+   background-image: url(../IMG/jquery.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+
+.container-bar {
+   width: 100%;
+   background-color: #ddd;
+}
+
+.skillsb {
+   text-align: right;
+   padding-right: 20px;
+   line-height: 20px;
+   color: white;
+}
+
+.html {
+   width: 90%;
+   background-color: #4CAF50;
+}
+
+.css {
+   width: 80%;
+   background-color: #2196F3;
+}
+
+.js {
+   width: 50%;
+   background-color: #f44336;
+}
+
+.jquery {
+   width: 50%;
+   background-color: #808080;
 }
