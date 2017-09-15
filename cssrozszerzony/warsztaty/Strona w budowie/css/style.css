@@ -1,0 +1,125 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg {
+    /* Background image */
+    background-image: url('../img/740.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+
+
+/* Position text in the top-left corner */
+
+.topleft {
+    position: absolute;
+    top: 0;
+    right: 16px;
+}
+
+.topleft p {
+    font-size: 1.5em;
+}
+
+
+/* Position text in the bottom-left corner */
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+}
+
+.bottomleft a {
+    font-size: 15px;
+}
+
+
+/* Position text in the middle */
+
+#contact {
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.contact {
+    position: absolute;
+    top: 10%;
+    right: 16px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+.contact a:hover {
+    color: deeppink;
+}
+
+#middle {
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.42);
+    padding: 0 80px;
+}
+
+.free a {
+    font-size: 0.4em;
+    color: bisque;
+}
+
+
+/* Style the <hr> element */
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    .topleft {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    #contact {
+        margin: auto;
+        width: 60%;
+    }
+    .middle {
+        margin: auto;
+        width: 60%;
+        background-color: rgba(128, 128, 128, 0);
+    }
+}
