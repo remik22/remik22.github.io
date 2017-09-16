@@ -62,7 +62,7 @@ html {
 
 .contact {
     position: absolute;
-    top: 10%;
+    top: 8%;
     right: 16px;
 }
 
@@ -107,19 +107,27 @@ hr {
 
 @media (max-width: 768px) {
     .topleft {
-        position: absolute;
-        top: 5%;
+        position: relative;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+        font-size: 1em;
     }
     #contact {
+        position: relative;
         margin: auto;
-        width: 60%;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
     }
     .middle {
+        position: relative;
         margin: auto;
-        width: 60%;
+        width: 100%;
+        top: 30%;
         background-color: rgba(128, 128, 128, 0);
+        text-align: center;
+        font-size: 1em;
     }
 }
